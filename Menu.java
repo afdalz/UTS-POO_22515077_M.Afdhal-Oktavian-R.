@@ -7,7 +7,7 @@ public class Menu {
     public Menu(String kodeMenu, String namaMenu,String Kategori, double harga) {
         this.kodeMenu = kodeMenu;
         this.namaMenu = namaMenu;
-        this.namaMenu = Kategori;
+        this.Kategori = Kategori;
         setHarga(harga);
     }
 
@@ -48,6 +48,6 @@ public class Menu {
     }
 
     public void tampilkanInfoMenu() {
-        System.out.println("Kode: " + kodeMenu + " | Nama: " + namaMenu + " | Harga: Rp " + harga);
+        System.out.println("Kode: " + kodeMenu + " | Nama: " + namaMenu + " | Kategori: " + Kategori + " | Harga: Rp " + harga);
     }
 }
