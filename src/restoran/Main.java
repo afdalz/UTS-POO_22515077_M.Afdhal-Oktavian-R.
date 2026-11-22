@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Restoran restoran = new Restoran("Nusantara Restaurant");
+        Restoran restoran = new Restoran("Nusantara Restaurant", "Jl. Hj. Lamuse");
         QueuePesanan antreanPesanan = new QueuePesanan(5);
 
         int pilihan = 0;
