@@ -60,7 +60,9 @@ public class Main {
                     String namaP = scanner.nextLine();
                     System.out.print("Masukkan No. Telepon: ");
                     String telpP = scanner.nextLine();
-                    Pelanggan pelangganBaru = new Pelanggan(idP, namaP, telpP);
+                    System.out.print("Masukkan Alamat: ");
+                    String AlamatP = scanner.nextLine();
+                    Pelanggan pelangganBaru = new Pelanggan(idP, namaP, telpP, AlamatP);
                     restoran.tambahPelanggan(pelangganBaru);
                     System.out.println("Pelanggan berhasil ditambahkan!");
                     restoran.tampilkanSemuaPelanggan();
