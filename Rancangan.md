@@ -93,5 +93,5 @@
     -public Pesanan front() — Melihat data pesanan yang berada di posisi 			 terdepan tanpa menghapusnya.
     -public int size() — Mengembalikan jumlah total antrean yang sedang aktif.
 6. Rancangan Class Utama: Main
-   -Method Utama:
+   -Method Utama::
     -public static void main(String[] args) — Menjalankan perulangan menu 			 konsol interaktif (do-while dan switch-case) dengan pengamanan validasi i		 nput Scanner (hasNextInt() / hasNextDouble()) agar program tidak crash.
