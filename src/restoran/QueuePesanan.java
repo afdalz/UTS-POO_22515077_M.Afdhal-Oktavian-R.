@@ -1,5 +1,5 @@
 package restoran;
-public class QueuePesanan {
+public class  QueuePesanan {
     private Pesanan[] dataQueue;
     private int front;
     private int rear;
