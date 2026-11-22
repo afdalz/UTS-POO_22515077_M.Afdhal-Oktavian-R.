@@ -48,6 +48,6 @@ public class Menu {
     }
 
     public void tampilkanInfoMenu() {
-        System.out.println("Kode: " + kodeMenu + " | Nama: " + namaMenu + " | Kategori: " + Kategori + " | Harga: Rp " + harga);
+        System.out.println("Kode: " + kodeMenu + " | Nama: " + namaMenu + " | kategori: " + Kategori + " | Harga: Rp " + harga);
     }
 }
