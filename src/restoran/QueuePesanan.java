@@ -1,3 +1,4 @@
+package restoran;
 public class QueuePesanan {
     private Pesanan[] dataQueue;
     private int front;

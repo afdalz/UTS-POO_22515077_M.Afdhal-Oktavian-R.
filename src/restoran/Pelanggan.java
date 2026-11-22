@@ -1,3 +1,4 @@
+package restoran;
 public class Pelanggan {
     private String idPelanggan;
     private String namaPelanggan;

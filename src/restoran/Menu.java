@@ -1,3 +1,4 @@
+package restoran;
 public class Menu {
     private String kodeMenu;
     private String namaMenu;
