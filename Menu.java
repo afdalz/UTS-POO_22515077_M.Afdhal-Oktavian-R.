@@ -1,11 +1,13 @@
 public class Menu {
     private String kodeMenu;
     private String namaMenu;
+    private String Kategori;
     private double harga;
 
-    public Menu(String kodeMenu, String namaMenu, double harga) {
+    public Menu(String kodeMenu, String namaMenu,String Kategori, double harga) {
         this.kodeMenu = kodeMenu;
         this.namaMenu = namaMenu;
+        this.namaMenu = Kategori;
         setHarga(harga);
     }
 
@@ -24,6 +26,14 @@ public class Menu {
     public void setNamaMenu(String namaMenu) {
         this.namaMenu = namaMenu;
     }
+    public String getKategori() {
+        return Kategori;
+    }
+
+    public void setKategori(String Almat) {
+        this.Kategori = Kategori;
+    }
+
 
     public double getHarga() {
         return harga;

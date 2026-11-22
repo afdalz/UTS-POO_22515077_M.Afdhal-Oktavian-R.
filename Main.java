@@ -37,11 +37,13 @@ public class Main {
                     String kodeM = scanner.nextLine();
                     System.out.print("Masukkan Nama Menu: ");
                     String namaM = scanner.nextLine();
+                    System.out.print("Masukkan Kategori Menu (contoh: Makanan/Minuman): ");
+                    String kategoriM = scanner.nextLine();
                     System.out.print("Masukkan Harga Menu: ");
                     if (scanner.hasNextDouble()) {
                         double hargaM = scanner.nextDouble();
                         scanner.nextLine();
-                        Menu menuBaru = new Menu(kodeM, namaM, hargaM);
+                        Menu menuBaru = new Menu(kodeM, namaM,kategoriM, hargaM);
                         restoran.tambahMenu(menuBaru);
                         System.out.println("Menu berhasil ditambahkan!");
                     } else {
